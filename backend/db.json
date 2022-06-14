@@ -1,0 +1,374 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which operator returns true if the two compared values are not equal?",
+      "answer": "!=="
+    },
+    {
+      "id": 2,
+      "question": "How is a forEach statement different from a for statement?",
+      "answer": "A for statement is generic, but a forEach statement can be used only with an array."
+    },
+    {
+      "id": 3,
+      "question": "Review the code below. Which statement calls the addTax function and passes 50 as an argument? How would you use this function to find out how much tax should be paid on $ 50?",
+      "answer": "addTax(50)"
+    },
+    {
+      "id": 4,
+      "question": "Which statement is the correct way to create a variable called rate and assign it the value 100?",
+      "answer": "let rate = 100;"
+    },
+    {
+      "id": 5,
+      "question": "Which statement creates a new object using the Person constructor? Which statement creates a new Person object called 'student'",
+      "answer": "var student = new Person();"
+    },
+    {
+      "id": 6,
+      "question": " When would the final statement in the code shown be logged to the console? When would 'results shown' be logged to the console?",
+      "answer": "immediately"
+    },
+    {
+      "id": 7,
+      "question": "Which snippet could you add to this code to print 'food' to the console?",
+      "answer": "`Animal.belly[0]`"
+    },
+    {
+      "id": 8,
+      "question": "You've written the code shown to log a set of consecutive values, but it instead results in the value 5, 5, 5, and 5 being logged to the console. Which revised version of the code would result in the value 1, 2, 3 and 4 being logged?",
+      "answer": "javascript for (var i = 1; i <= 4; i++) { (function (j) { setTimeout(function () { console.log(j); }, j * 1000); })(i);"
+    },
+    {
+      "id": 9,
+      "question": "How does a function create a closure?",
+      "answer": "It returns a reference to a variable in its parent scope."
+    },
+    {
+      "id": 10,
+      "question": "Which statement creates a new function called discountPrice?",
+      "answer": "let discountPrice = function (price) { return price * 0.85;};"
+    },
+    {
+      "id": 11,
+      "question": "What is the result in the console of running the code shown? Storm",
+      "answer": "snow"
+    },
+    {
+      "id": 12,
+      "question": "You need to match a time value such as 12:00:32. Which of the following regular expressions would work for your code?",
+      "answer": "/dd:dd:dd/"
+    },
+    {
+      "id": 13,
+      "question": "What is the result in the console of running this code?",
+      "answer": "{desc: 'logger'}"
+    },
+    {
+      "id": 14,
+      "question": "How would you reference the text 'avenue' in the code shown? - let roadTypes = ['street', 'road', 'avenue', 'circle'];",
+      "answer": "roadTypes[2]"
+    },
+    {
+      "id": 15,
+      "question": "console.log(typeof 42);",
+      "answer": "number"
+    },
+    {
+      "id": 16,
+      "question": "Which property references the DOM object that dispatched an event?",
+      "answer": "target"
+    },
+    {
+      "id": 17,
+      "question": " function addNumbers(x, y) { if (isNaN(x) || isNaN(y)) { } }",
+      "answer": "throw('One or both parameters are not numbers')"
+    },
+    {
+      "id": 18,
+      "question": " Which method converts JSON data to a JavaScript object?",
+      "answer": "JSON.parse()"
+    },
+    {
+      "id": 19,
+      "question": " When would you use a conditional statement",
+      "answer": "When you want your code to choose between multiple options."
+    },
+    {
+      "id": 20,
+      "question": "for (var i = 0; i < 5; i++) { console.log(i);}",
+      "answer": "0 1 2 3 4 "
+    },
+    {
+      "id": 21,
+      "question": "Which Object method returns an iterable that can be used to iterate over the properties of an object?",
+      "answer": "Object.keys()`"
+    },
+    {
+      "id": 22,
+      "question": "var a = ['dog', 'cat', 'hen'];a[100] = 'fox';console.log(a.length);",
+      "answer": "101"
+    },
+    {
+      "id": 23,
+      "question": "difference between collections created with Map and collections created with Object",
+      "answer": "You can count the records in a Map with a single method call."
+    },
+    {
+      "id": 24,
+      "question": "value of dessert.type const dessert = { type: 'pie' }; dessert.type = 'pudding';",
+      "answer": "pudding"
+    },
+    {
+      "id": 25,
+      "question": "0 && hi",
+      "answer": "0"
+    },
+    {
+      "id": 26,
+      "question": "Which of the following operators can be used to do a short-circuit evaluation?",
+      "answer": "/ | / |"
+    },
+    {
+      "id": 27,
+      "question": "Person constructor as the parent of the Student constructor in the prototype chain?",
+      "answer": "Student.prototype = new Person();"
+    },
+    {
+      "id": 28,
+      "question": " Why would you include a use strict",
+      "answer": " to tell parsers to enforce all JavaScript syntax rules"
+    },
+    {
+      "id": 29,
+      "question": "Which variable to be accessed (as undefined) before the line that defines it",
+      "answer": "var"
+    },
+    {
+      "id": 30,
+      "question": "which values is not a Boolean false",
+      "answer": "values is not a Boolean false"
+    },
+    {
+      "id": 31,
+      "question": "Which of the following is not a keyword in JavaScript",
+      "answer": "array"
+    },
+    {
+      "id": 31,
+      "question": "Which statement creates a new function called discountPrice?",
+      "answer": "let discountPrice = function (price) { return price * 0.85;};"
+    },
+    {
+      "id": 32,
+      "question": "implicit parameter for every function in JavaScript",
+      "answer": "Arguments"
+    },
+    {
+      "id": 33,
+      "question": "how do you get the value of 42 from an instance of X?",
+      "answer": "X.Y"
+    },
+    {
+      "id": 34,
+      "question": "sum(10, 20); diff(10, 20);function sum(x, y)",
+      "answer": "30, ReferenceError"
+    },
+    {
+      "id": 35,
+      "question": "Why is it usually better to work with Objects instead of Arrays to store a collection of records?",
+      "answer": "Most operations involve looking up a record, and objects can do that better than arrays."
+    },
+    {
+      "id": 36,
+      "question": "Which statement is true about the async attribute for the HTML script tag?",
+      "answer": "It can be used only for external JavaScript code."
+    },
+    {
+      "id": 37,
+      "question": "How do you import the lodash library",
+      "answer": "import _ from 'lodash';"
+    },
+    {
+      "id": 38,
+      "question": "[] == [];",
+      "answer": "false"
+    },
+    {
+      "id": 39,
+      "question": " What type of function can have its execution suspended and then resumed at a later point?",
+      "answer": "Generator function"
+    },
+    {
+      "id": 40,
+      "question": " f2();",
+      "answer": "1"
+    },
+    {
+      "id": 41,
+      "question": " Which statement is true about Functional Programming",
+      "answer": "Side effects are not allowed "
+    },
+    {
+      "id": 42,
+      "question": "TypeError: Cannot read property 'reduce' of undefined.",
+      "answer": "You are calling a method named reduce on an object that's declared but has no value."
+    },
+    {
+      "id": 43,
+      "question": "How many prototype objects are in the chain for the following array? `let arr = [];`",
+      "answer": "3"
+    },
+    {
+      "id": 44,
+      "question": "Which choice is _not_ a unary operator",
+      "answer": "instanceof"
+    },
+    {
+      "id": 45,
+      "question": "What type of scope var start",
+      "answer": "block"
+    },
+    {
+      "id": 46,
+      "question": " What will the value of y be in this code:",
+      "answer": "two"
+    },
+    {
+      "id": 47,
+      "question": " Which keyword is used to create an error?",
+      "answer": "throw"
+    },
+    {
+      "id": 48,
+      "question": " difference between async and defer",
+      "answer": "The defer attribute will asynchronously load the scripts in order."
+    },
+    {
+      "id": 49,
+      "question": "problem var b = (a = 3) ? true : false;",
+      "answer": "The condition in the ternary is using the assignment operator."
+    },
+    {
+      "id": 50,
+      "question": "DOM node created by the code",
+      "answer": "document.querySelector('.pull')"
+    },
+    {
+      "id": 52,
+      "question": "function setEnd()",
+      "answer": "ReferenceError"
+    },
+    {
+      "id": 53,
+      "question": "console.log(sayHello.prototype);",
+      "answer": "an object with a constructor property"
+    },
+    {
+      "id": 54,
+      "question": "Which collection object allows unique value to be inserted only once",
+      "answer": "Set"
+    },
+    {
+      "id": 25,
+      "question": "0 && hi",
+      "answer": "0"
+    },
+    {
+      "id": 26,
+      "question": "Which of the following operators can be used to do a short-circuit evaluation?",
+      "answer": "/ | / |"
+    },
+    {
+      "id": 27,
+      "question": "Person constructor as the parent of the Student constructor in the prototype chain?",
+      "answer": "Student.prototype = new Person();"
+    },
+    {
+      "id": 28,
+      "question": " Why would you include a use strict",
+      "answer": " to tell parsers to enforce all JavaScript syntax rules"
+    },
+    {
+      "id": 29,
+      "question": "Which variable to be accessed (as undefined) before the line that defines it",
+      "answer": "var"
+    },
+    {
+      "id": 30,
+      "question": "which values is not a Boolean false",
+      "answer": "values is not a Boolean false"
+    },
+    {
+      "id": 31,
+      "question": "Which of the following is not a keyword in JavaScript",
+      "answer": "array"
+    },
+    {
+      "id": 31,
+      "question": "Which statement creates a new function called discountPrice?",
+      "answer": "let discountPrice = function (price) { return price * 0.85;};"
+    },
+    {
+      "id": 32,
+      "question": "implicit parameter for every function in JavaScript",
+      "answer": "Arguments"
+    },
+    {
+      "id": 33,
+      "question": "how do you get the value of 42 from an instance of X?",
+      "answer": "X.Y"
+    },
+    {
+      "id": 34,
+      "question": "sum(10, 20); diff(10, 20);function sum(x, y)",
+      "answer": "30, ReferenceError"
+    },
+    {
+      "id": 35,
+      "question": "Why is it usually better to work with Objects instead of Arrays to store a collection of records?",
+      "answer": "Most operations involve looking up a record, and objects can do that better than arrays."
+    },
+    {
+      "id": 36,
+      "question": "Which statement is true about the async attribute for the HTML script tag?",
+      "answer": "It can be used only for external JavaScript code."
+    },
+    {
+      "id": 37,
+      "question": "How do you import the lodash library",
+      "answer": "import _ from 'lodash';"
+    },
+    {
+      "id": 38,
+      "question": "[] == [];",
+      "answer": "false"
+    },
+    {
+      "id": 39,
+      "question": " What type of function can have its execution suspended and then resumed at a later point?",
+      "answer": "Generator function"
+    },
+    {
+      "id": 40,
+      "question": " f2();",
+      "answer": "1"
+    },
+    {
+      "id": 41,
+      "question": " Which statement is true about Functional Programming",
+      "answer": "Side effects are not allowed "
+    },
+    {
+      "id": 42,
+      "question": "TypeError: Cannot read property 'reduce' of undefined.",
+      "answer": "You are calling a method named reduce on an object that's declared but has no value."
+    },
+    {
+      "id": 43,
+      "question": "How many prototype objects are in the chain for the following array? `let arr = [];`",
+      "answer": "3"
+    }
+  ]
+}
